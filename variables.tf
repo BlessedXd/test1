@@ -26,7 +26,7 @@ variable "admin_password" {
 
 variable "storage_account_name" {
   type    = string
-  default = "backendaccountvaleriy7777s"  # Назва облікового запису за замовчуванням
+  default = "accountval7777s"  # Назва облікового запису за замовчуванням
 }
 
 variable "tenant_id" {
