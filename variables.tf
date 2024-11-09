@@ -5,28 +5,28 @@ variable "location" {
 
 variable "resource_group_name" {
   type    = string
-  default = "resourcegroup777"  # Задайте тут значення за замовчуванням
+  default = "resourcegroup7777s"  # Задайте тут значення за замовчуванням
 }
 
 variable "app_service_name" {
   type    = string
-  default = "my-app-service"  # Назва вашого App Service за замовчуванням
+  default = "valeriy777servicename"  # Назва вашого App Service за замовчуванням
 }
 
 variable "admin_username" {
   type    = string
-  default = "valeriy7777777"  # Ім'я користувача за замовчуванням
+  default = "valeriy777777s7"  # Ім'я користувача за замовчуванням
 }
 
 variable "admin_password" {
   type      = string
   sensitive = true
-  default   = "Valsedad87768768_3242"  # Пароль за замовчуванням
+  default   = "Valsedad87768768_32s42"  # Пароль за замовчуванням
 }
 
 variable "storage_account_name" {
   type    = string
-  default = "backendaccountvaleriy777"  # Назва облікового запису за замовчуванням
+  default = "backendaccountvaleriy7777s"  # Назва облікового запису за замовчуванням
 }
 
 variable "tenant_id" {
