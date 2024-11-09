@@ -31,7 +31,7 @@ variable "storage_account_name" {
 
 variable "tenant_id" {
   type    = string
-   # Ваш Azure Tenant ID за замовчуванням
+  default = "70a28522-969b-451f-bdb2-abfea3aaa5bf"  # Ваш Azure Tenant ID за замовчуванням
 }
 
 variable "tfstate_container_name" {
@@ -39,7 +39,4 @@ variable "tfstate_container_name" {
   default = "terraform-bestrong-container"  # Контейнер для Terraform State за замовчуванням
 }
 
-variable "tenant_id" {
-  type    = string
-  default = "70a28522-969b-451f-bdb2-abfea3aaa5bf"  # Ваш Azure Tenant ID за замовчуванням
-}
+
