@@ -33,7 +33,3 @@ variable "tfstate_container_name" {
   default = "terraform-bestrong-container"
 }
 
-variable "storage_account_access_key" {
-  description = "Access key for Azure Storage Account"
-  type = string
-}
