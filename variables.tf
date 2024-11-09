@@ -21,7 +21,7 @@ variable "admin_username" {
 variable "admin_password" {
   type      = string
   sensitive = true
-  default   = "AnastasiaOkayBro_7777"  # Пароль за замовчуванням
+  default   = "Valsedad87768768_3242"  # Пароль за замовчуванням
 }
 
 variable "storage_account_name" {
@@ -37,4 +37,9 @@ variable "tenant_id" {
 variable "tfstate_container_name" {
   type    = string
   default = "terraform-bestrong-container"  # Контейнер для Terraform State за замовчуванням
+}
+
+variable "tenant_id" {
+  type    = string
+  default = "70a28522-969b-451f-bdb2-abfea3aaa5bf"  # Ваш Azure Tenant ID за замовчуванням
 }
